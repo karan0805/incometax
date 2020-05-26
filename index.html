@@ -97,8 +97,10 @@
             
             var inhand=0;
             
-             if(x<=250000)
-		      inhand=x;
+            if(x<=250000)
+	    { 	var tax=0;
+		  inhand=x;
+	    }
             else if(x>250000&&x<=500000)
             {
                 var tax=(x-250000)*0.05;
