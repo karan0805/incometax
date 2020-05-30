@@ -15,39 +15,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
  
 <style type="text/css">
-    .input-group-btn button[type="submit"] {
+    .input-group-btn button[type="submit"]
+    {
     border-radius: 100px !important;
     padding: 1rem 3rem;
-    margin-top: 50px;
-   
-}
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    }
     
    .container
     {
-	background-color: whitesmoke;
+	background-color: floralwhite;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+        padding-top: 3%;
     }
     
     .landing-text{
     margin-top: 40px;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 4rem;
+    font-weight: 350;
+    font-size: 3rem;
     text-align: center;
     color: black;
+    opacity: 80%;
    
     }
     
     h3{
     margin-top: 40px;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1.5em;
     text-align: center;
     color: black;
-    opacity: 60%;
+    opacity: 50%;
     }
-    
-    
+      
     .anagram{
     margin-top: 5rem;
     font-family: "Poppins", sans-serif;
@@ -97,14 +102,15 @@
 </head>
 
 <body class="container">
-<div class="landing-text">Income Tax</div>
+    
+<div class="landing-text">INCOME TAX</div>
 <h3 >Enter your annual income in rupees and know how much tax you would have to pay</h3>
 
   <div class="row editor">
           <div class="col">
           	  <div class="form-group shadow-textarea">
               <label for="myText" class="anagram">Enter Income here</label>
-              <textarea class="form-control z-depth-1" id="myText" ></textarea>
+              <textarea class="form-control z-depth-1" id="myText" rows="5" ></textarea>
               </div>
           </div>
     
@@ -112,10 +118,10 @@
     <div class="col-md-12 input-group-btn "  style="display:flex;    justify-content: center;">
         <button type="submit" class="btn btn-primary btn-form display-4" onclick="myFunction()">Submit</button>
     </div>
-    
+  </div>  
     
 
-</div>
+
     
 <footer class="copyright">
     <div class="madewithlove">
